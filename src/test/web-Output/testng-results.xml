@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19896" started-at="2023-06-04T10:18:23 BDT" finished-at="2023-06-04T10:18:43 BDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.WebRunnerTest@1efed156]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="cucumberTest" duration-ms="19896" started-at="2023-06-04T10:18:23 BDT" finished-at="2023-06-04T10:18:43 BDT">
+      <class name="TestRunner.WebRunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.WebRunnerTest@1efed156]" name="setUpClass" is-config="true" duration-ms="728" started-at="2023-06-04T10:18:23 BDT" finished-at="2023-06-04T10:18:24 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.WebRunnerTest@1efed156]" name="runScenario" duration-ms="13446" started-at="2023-06-04T10:18:24 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-04T10:18:37 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add customer with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Bank Manager Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.WebRunnerTest@1efed156]" name="runScenario" duration-ms="994" started-at="2023-06-04T10:18:37 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-04T10:18:38 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add customer name and currency"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Open Account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.WebRunnerTest@1efed156]" name="runScenario" duration-ms="4605" started-at="2023-06-04T10:18:38 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-04T10:18:43 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer information and delete customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Delete Account]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.WebRunnerTest@1efed156]" name="tearDownClass" is-config="true" duration-ms="85" started-at="2023-06-04T10:18:43 BDT" finished-at="2023-06-04T10:18:43 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.WebRunnerTest -->
+    </test> <!-- cucumberTest -->
+  </suite> <!-- Suite -->
+</testng-results>
