@@ -33,7 +33,7 @@ jobs:
         subject: Automated Test Report
         body: |
           Hi,
-          attachments: ./build/reports/cucumber/cucumber-html-reports/overview-features.html
+          attachments: ./build/reports/webFeature.html
         from: Github Actions
         to: rafi.azwad.sub@gmail.com
         content_type: text/html
