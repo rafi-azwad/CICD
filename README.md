@@ -37,7 +37,9 @@ Then again click "New repository secret"
 ----- Headless Browser -----
 
 options.addArguments("--no-sandbox");
+
 options.addArguments("--disable-dev-shm-usage");
+
 options.addArguments("--headless");
 
 (paste in it Helper.class after driver setup)
@@ -46,8 +48,11 @@ options.addArguments("--headless");
 ----- InstallChrome.sh -----
 
 #!/bin/bash
+
 set -ex
+
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
 (paste it in "InstallChrome.sh" file)
