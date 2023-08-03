@@ -35,7 +35,7 @@ jobs:
           Hi,
         attachments: ./build/reports/webFeature.html
         from: Github Actions
-        to: asiffmahmud@gmail.com
+        to: rafi.azwad.bd@gmail.com
         content_type: text/html
         # Optional converting Markdown to HTML (set content_type to text/html too):
         convert_markdown: true
