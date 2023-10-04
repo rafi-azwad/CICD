@@ -22,7 +22,7 @@ dependencies {
     //implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.1.5'
     //implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.5.3'
-    implementation 'io.github.bonigarcia:webdrivermanager:5.1.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.5.3'
 
     implementation group: 'io.appium', name: 'java-client', version:'8.3.0'
 
