@@ -25,7 +25,7 @@ public class OpenAccountPage {
         //Select select = new Select(loc_Start);
         //   select.selectByIndex(2);
         driver.findElement(currency).click();
-        driver.findElement(By.xpath("//select//option[text()='Dollar']")).click();
+        driver.findElement(By.xpath("//select//option[text()='bollar']")).click();
         driver.findElement(currency).click();
 
     }
